@@ -1,8 +1,17 @@
 === ICTU Corrections ===
 This plugin is maintained at https://github.com/ICTU/ictuwp-plugin-Seriously-Simple-Stats-Overrides
-It is a fork of https://github.com/CastosHQ/Seriously-Simple-Stats and applies the fixes from https://github.com/CastosHQ/Seriously-Simple-Stats/pull/57 and https://github.com/CastosHQ/Seriously-Simple-Stats/pull/91
 
-We've updated this readme, changelog and the plugin version to `1.3.1-alpha` (NOT `SSP_STATS_VERSION`!) and changed the `name` to reflect the fact that this is a fork...
+It is a **fork** of https://github.com/CastosHQ/Seriously-Simple-Stats and applies the fixes from https://github.com/CastosHQ/Seriously-Simple-Stats/pull/57 and https://github.com/CastosHQ/Seriously-Simple-Stats/pull/91
+
+What is changed in this fork:
+
+- Add: `./vendor` folder with dependencies
+- Change: `.gitignore` to allow `./vendor`
+- Change: `seriously-simple-stats.php` require from `__DIR__`
+- Change: `name` to reflect the fact that this is a fork...
+- Update: Readme
+- Update: Changelog
+- Update: Plugin version to `1.3.1-beta` (NOT the `SSP_STATS_VERSION`!)
 
 === Seriously Simple Stats ===
 Contributors: PodcastMotor, psykro, simondowdles, hlashbrooke, seriouspodcaster
@@ -84,7 +93,7 @@ Yes. This plugin uses the [Crawler Detect](https://github.com/JayBizzle/Crawler-
 
 == Changelog ==
 
-= 1.3.1-alpha =
+= 1.3.1-beta =
 * 2022-07-20
 * [FIX] (ICTU) Applied fixes from PR #57 and #91
 

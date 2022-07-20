@@ -2,6 +2,6 @@ bin
 .idea
 *.iml
 .gitignore
-vendor/
+# vendor/
 node_modules
 package-lock.json
