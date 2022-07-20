@@ -1,6 +1,6 @@
 <?php
 /*
- * Plugin Name: Seriously Simple Stats
+ * Plugin Name: Seriously Simple Stats (ICTU WP corrections)
  * Version: 1.3.0
  * Plugin URI: https://wordpress.org/plugins/seriously-simple-stats
  * Description: Integrated analytics and stats tracking for Seriously Simple Podcasting.
