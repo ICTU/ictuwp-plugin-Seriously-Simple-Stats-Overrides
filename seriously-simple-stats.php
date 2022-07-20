@@ -27,13 +27,22 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 use SeriouslySimpleStats\Classes\Stats;
 
-require_once 'vendor/autoload.php';
+// ICTU [1/2]: Applied fix from 
+// https://github.com/CastosHQ/Seriously-Simple-Stats/pull/57
+// require_once 'vendor/autoload.php';
 
 define( 'SSP_STATS_VERSION', '1.3.0' );
 define( 'SSP_STATS_DIR_PATH', trailingslashit( plugin_dir_path( __FILE__ ) ) );
 
+// ICTU [2/2]: Applied fix from 
+// https://github.com/CastosHQ/Seriously-Simple-Stats/pull/57
+require_once SSP_STATS_DIR_PATH . 'vendor/autoload.php';
+
 if ( ! function_exists( 'is_ssp_active' ) ) {
-	require_once 'ssp-includes/ssp-functions.php';
+	// ICTU: Applied fix from 
+	// https://github.com/CastosHQ/Seriously-Simple-Stats/pull/91
+	// require_once 'ssp-includes/ssp-functions.php';
+	require_once SSP_STATS_DIR_PATH . 'ssp-includes/ssp-functions.php';
 }
 
 if ( is_ssp_active( '1.13.1' ) ) {
