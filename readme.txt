@@ -1,3 +1,9 @@
+=== ICTU Corrections ===
+This plugin is maintained at https://github.com/ICTU/ictuwp-plugin-Seriously-Simple-Stats-Overrides
+It is a fork of https://github.com/CastosHQ/Seriously-Simple-Stats and applies the fixes from https://github.com/CastosHQ/Seriously-Simple-Stats/pull/57 and https://github.com/CastosHQ/Seriously-Simple-Stats/pull/91
+
+We've updated this readme, changelog and the plugin version to `1.3.1-alpha` (NOT `SSP_STATS_VERSION`!) and changed the `name` to reflect the fact that this is a fork...
+
 === Seriously Simple Stats ===
 Contributors: PodcastMotor, psykro, simondowdles, hlashbrooke, seriouspodcaster
 Tags: seriously simple podcasting, stats, statistics, listeners, analytics, podcast, podcasting, ssp, free, add-ons, extensions, addons
@@ -77,6 +83,10 @@ Note that Stitcher download stats are not currently possible to gather accuratel
 Yes. This plugin uses the [Crawler Detect](https://github.com/JayBizzle/Crawler-Detect) library to make sure that crawlers/bots are not recorded as listens.
 
 == Changelog ==
+
+= 1.3.1-alpha =
+* 2022-07-20
+* [FIX] (ICTU) Applied fixes from PR #57 and #91
 
 = 1.3.0 =
 * 2021-03-24
